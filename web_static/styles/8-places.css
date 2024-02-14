@@ -1,6 +1,5 @@
 .places {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -13,11 +12,11 @@
     height: 0;
 }
 article {
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
+    align-content: flex-start;
+    flex-flow: wrap;
     display: flex;
     flex: 0 0 auto;
-    height: 50px;
     width: 390px;
     margin: 20px;
     padding: 20px;
@@ -26,4 +25,11 @@ article {
 }
 article h2 {
     font-size: 30px;
+    flex: 0 0 auto;
+    text-align: center;
+    margin-top: -5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
 }
+
